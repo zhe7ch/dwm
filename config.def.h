@@ -2,22 +2,17 @@
 
 /* appearance */
 static const unsigned int borderpx  = 4;        /* border pixel of windows */
-static const unsigned int gappx     = 8;        /* gaps size between windows */
-static const unsigned int snap      = 32;       /* snap pixel */
+static const unsigned int gappx     = 16;        /* gaps size between windows */
+static const unsigned int snap      = 64;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
-static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "monospace:size=12", "fontawesome:size=12" };
-static const char dmenufont[]       = "monospace:size=12";
-// background color
-static const char col_gray1[]       = "#20124d";
-// inactive window border color
-static const char col_gray2[]       = "#444444";
-// font color
-static const char col_gray3[]       = "#bbbbbb";
-// current tag and current window font color
-static const char col_gray4[]       = "#222222";
-// top bar second color and  active window border color
-static const char col_cyan[]        = "#e69138";
+static const int topbar             = 0;        /* 0 means bottom bar */
+static const char *fonts[]          = {"DejaVuSansMono Nerd Font:size=14", "monospace:size=14", "fontawesome:size=14" };
+static const char dmenufont[]       = "DejaVuSansMono Nerd Font:size=14";
+static const char col_gray1[]       = "#20124d";    /* background color */
+static const char col_gray2[]       = "#444444";    /* inactive window border color*/
+static const char col_gray3[]       = "#bbbbbb";    /* font color */
+static const char col_gray4[]       = "#222222";    /* current tag and current window font color */
+static const char col_cyan[]        = "#e69138";    /* top bar second color and active window border color */
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
