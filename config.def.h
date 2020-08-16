@@ -6,7 +6,13 @@ static const unsigned int gappx     = 16;        /* gaps size between windows */
 static const unsigned int snap      = 64;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 0;        /* 0 means bottom bar */
-static const char *fonts[]          = {"DejaVuSansMono Nerd Font:size=14", "fontawesome:size=14" };
+static const char *fonts[]          = {
+    "DejaVuSansMono Nerd Font:size=14",
+    "fontawesome:size=14",
+    "Noto Sans CJK JP:size=14",
+    "Noto Sans CJK TC:size=14",
+    "Noto Sans CJK SC:size=14"
+};
 static const char dmenufont[]       = "DejaVuSansMono Nerd Font:size=14";
 static const char col_gray1[]       = "#20124d";    /* background color */
 static const char col_gray2[]       = "#444444";    /* inactive window border color*/
