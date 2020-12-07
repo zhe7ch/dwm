@@ -7,13 +7,12 @@ static const unsigned int snap      = 64;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 0;        /* 0 means bottom bar */
 static const char *fonts[]          = {
-    "DejaVuSansMono Nerd Font:size=14",
-    "fontawesome:size=14",
+    "NotoSans Nerd Font:size=14",
     "Noto Sans CJK JP:size=14",
     "Noto Sans CJK TC:size=14",
     "Noto Sans CJK SC:size=14"
 };
-static const char dmenufont[]       = "DejaVuSansMono Nerd Font:size=14";
+static const char dmenufont[]       = "NotoSans Nerd Font:size=14";
 static const char col_gray1[]       = "#20124d";    /* background color */
 static const char col_gray2[]       = "#444444";    /* inactive window border color*/
 static const char col_gray3[]       = "#bbbbbb";    /* font color */
@@ -35,7 +34,7 @@ static const Rule rules[] = {
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
-	{ "Firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
+	{ "firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
 };
 
 /* layout(s) */
